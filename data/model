@@ -1,0 +1,64 @@
+{
+  "system_name": "AGV搬运循环系统",
+  "model": {
+    "series": [
+      "stage_pick",
+      "stage_lift",
+      "stage_travel_loaded",
+      "stage_place",
+      "stage_return_empty"
+    ]
+  },
+  "subsystems": {
+    "stage_pick": {
+      "series": [
+        "power",
+        "plc",
+        "safety",
+        "sensor_pick",
+        "battery"
+      ]
+    },
+    "stage_lift": {
+      "series": [
+        "power",
+        "plc",
+        "safety",
+        "motor_lift",
+        "encoder_lift",
+        "battery"
+      ]
+    },
+    "stage_travel_loaded": {
+      "series": [
+        "power",
+        "plc",
+        "safety",
+        "motor_travel",
+        "encoder_travel",
+        "battery"
+      ]
+    },
+    "stage_place": {
+      "series": [
+        "power",
+        "plc",
+        "safety",
+        "motor_lift",
+        "encoder_lift",
+        "sensor_place",
+        "battery"
+      ]
+    },
+    "stage_return_empty": {
+      "series": [
+        "power",
+        "plc",
+        "safety",
+        "motor_travel",
+        "encoder_travel",
+        "battery"
+      ]
+    }
+  }
+}
