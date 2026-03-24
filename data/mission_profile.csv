@@ -1,0 +1,6 @@
+stage,duration,power,plc,safety,motor_lift,motor_travel,encoder_lift,encoder_travel,sensor_pick,sensor_place,battery
+Pick,0.25,1,1,1,0,0,0,0,1,0,1
+Lift,0.3,1,1,1,1,0,1,0,0,0,1
+TravelLoaded,0.8,1,1,1,0,1,0,1,0,0,1
+Place,0.25,1,1,1,1,0,1,0,0,1,1
+ReturnEmpty,0.6,1,1,1,0,1,0,1,0,0,1
