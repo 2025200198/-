@@ -1,1 +1,11 @@
-
+component,lambda_h,description
+power,1e-6,供电系统
+plc,5e-7,可编程逻辑控制器
+safety,8e-7,安全链系统
+motor_lift,2e-6,起升电机
+motor_travel,2e-6,行走电机
+encoder_lift,1.5e-6,起升编码器
+encoder_travel,1.5e-6,行走编码器
+sensor_pick,1e-6,取料传感器
+sensor_place,1e-6,放料传感器
+battery,3e-6,动力电池
